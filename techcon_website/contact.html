@@ -20,29 +20,32 @@
     <main>
         <h2>Contact Details</h2>
         <p>Email: <a href="mailto:email@example.com"></a></p>
-        <div>
             <h3>Follow Us</h3>
             <a href="https://facebook.com/TechCon2024" target="_blank">Facebook</a>
             <a href="https://twitter.com/TechCon2024" target="_blank">Twitter</a>
             <a href="https://instagram.com/TechCon2024" target="_blank">Instagram</a>
-        </div>
         <h2>Venue Location</h2>
-        <div class="map-responsive">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.01985280278!2d-122.41941548468177!3d37.77492977975998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808c7e4f1f3f%3A0x7d0f1f3f1f3f1f3f!2sMoscone%20Center!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus"
-                width="600"
-                height="450"
-                style="border:0;"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-        </div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.01985280278!2d-122.41941548468177!3d37.77492977975998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808c7e4f1f3f%3A0x7d0f1f3f1f3f1f3f!2sMoscone%20Center!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus"
+            width="600"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
         <form action="">
-            <label for="name">Full name</label>
-            <input type="text" name="name">
+            <label for="name">Full name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email">
+            <label for=""></label>
+            <textarea name="text" id="Drop a suggestion!"></textarea>
+            <button>Submit</button>
         </form>
     </main>
-    <footer></footer>
+    <footer>
+        <p>&copy; Copyright TechCon 2025. All rights reserved </p>
+    </footer>
 </body>
 </html>
